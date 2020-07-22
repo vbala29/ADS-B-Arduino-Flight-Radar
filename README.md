@@ -22,12 +22,20 @@ updated at a set interval by the java program). This data is then printed to the
 
 **Arduino (Arduino/C: Controls LCD, 2 Status LEDs, a Button, and 2 Stepper Motors)**
 
-The Arduino program automatically reads data from the serial port when it is avaliable, and calculates/stores the following values: callsign, distance from the defined center lat/long point, altitude, velocity, track, latitude/longitude of the plane on the radar. When a button connected to pin 12 is pressed, these values are displayed on an LCD. In addition, two stepper motors, one functioning as an altimeter, the other a heading indicator, display the data of the closest plane. A status LED connected to pin 13 blinks when data is read from the serial port, while a status LED connected to pin 7 is lit when no data is being read from the serial port, and the Arduino is not in the processing of displaying data on the radar (i.e. the motors are not turning and the LCD has cycled through all values to display). 
+The Arduino program automatically reads data from the serial port when it is avaliable, and calculates/stores the following values: callsign, distance from the defined center lat/long point, altitude, velocity, track, which direction the user should look to find the plane in the sky (in degrees), latitude/longitude of the plane on the radar. When a button connected to pin 12 is pressed, these values are displayed on an LCD. In addition, two stepper motors, one functioning as an altimeter, the other a heading indicator, display the data of the closest plane. A status LED connected to pin 13 blinks when data is read from the serial port, while a status LED connected to pin 7 is lit when no data is being read from the serial port, and the Arduino is not in the processing of displaying data on the radar (i.e. the motors are not turning and the LCD has cycled through all values to display). 
 
 **Motor Calibration (Used to quickly repotisition the altimeter and heading indicator motors to 0 ft/ 0º)**
 
 In the serial monitor, enter the positions of the heading indicator followed by the altimeter, seperated by commas and in their respective units. The Arduino will convert these values to steps and reset the motors to their 0 value positions. 
 
+# Images of Example Hardware
+*Flight Radar In Its Neutral Position, Displaying No Data*
+![IMG_9087](https://user-images.githubusercontent.com/56012430/88239488-8f319f80-cc52-11ea-8cc5-9f7195471c63.jpg)
+
+*Flight radar cycling through data on the LCD, motors have turned to reflect the data of the aircraft (N938SA)*
+![IMG_9096](https://user-images.githubusercontent.com/56012430/88239554-b5efd600-cc52-11ea-8bdb-d709a1814c7b.jpg)
+*Flight radar has finished cycling and now shoes the distance from the user to the aircraft ("D"), as well as which direction to look ("L") to find the aircraft (assuming the center lat/long point the user defined is their position). *
+![IMG_9093](https://user-images.githubusercontent.com/56012430/88239559-bb4d2080-cc52-11ea-9d6d-a9b35b7e00ba.JPG)
 
 
 
