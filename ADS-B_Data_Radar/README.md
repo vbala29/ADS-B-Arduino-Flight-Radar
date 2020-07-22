@@ -4,7 +4,7 @@ ADS-B_Data_Radar contains a Java program retrieves ADS-B data for a bounded long
 The program writes thisinformation  to three files: FlightRadarRaw.txt (the raw information from the OpenSkyNetwork ADS-B provider), 
 FlightRadarOutput.txt (includes the radar's distance ordered and formatted output that is written to the console),
 and FlightRadarOrderedOutput.txt (which is the distance ordered data for planes formatted such that it can easily be written and 
-deciphered by the processing program. This text file is necessary for output to be written to the Arduino).
+deciphered by the Processing program. This text file is necessary for output to be written to the Arduino).
    
 
 # Usage:
