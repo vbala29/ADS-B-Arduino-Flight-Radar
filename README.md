@@ -32,7 +32,7 @@ In the serial monitor, enter the positions of the heading indicator followed by 
 *Flight Radar in its neutral position, displaying no data*
 ![IMG_9087](https://user-images.githubusercontent.com/56012430/88239488-8f319f80-cc52-11ea-8cc5-9f7195471c63.jpg)
 
-*Flight radar cycling through data on the LCD, motors have turned to reflect the data of the aircraft (N938SA)*
+*Flight radar cycling through data on the LCD, motors have turned to reflect the data of the aircraft (N938SA). (Note that the altitude is 1300 ft, so the altimeter has only turned a few degrees to the right)*
 ![IMG_9096](https://user-images.githubusercontent.com/56012430/88239554-b5efd600-cc52-11ea-8bdb-d709a1814c7b.jpg)
 
 *Flight radar has finished cycling and now shows the distance from the user to the aircraft ("D"), as well as which direction to look ("L") to find the aircraft (assuming the center lat/long point the user defined is their position).*
