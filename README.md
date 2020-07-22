@@ -29,7 +29,7 @@ The Arduino program automatically reads data from the serial port when it is ava
 In the serial monitor, enter the positions of the heading indicator followed by the altimeter, seperated by commas and in their respective units. The Arduino will convert these values to steps and reset the motors to their 0 value positions. 
 
 # Images of Example Hardware
-*Flight Radar in its neutral position, displaying no data.*
+*Flight Radar in its neutral position, displaying no data. The LED depicted as on is not one of the status LEDs described above, this LED simply lights up when power is supplied to the Arduino. The middle LED is connected to pin 7, and the rightmost to pin 13.*
 ![IMG_9087](https://user-images.githubusercontent.com/56012430/88239488-8f319f80-cc52-11ea-8cc5-9f7195471c63.jpg)
 
 *Flight radar cycling through data on the LCD, motors have turned to reflect the data of the aircraft (N938SA). (Note that the altitude is 1300 ft, so the altimeter has only turned a few degrees to the right)*
