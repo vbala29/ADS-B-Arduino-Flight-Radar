@@ -13,7 +13,7 @@ void setup(){
  //This is turned off when mySwitch = 0
  mySwitch=1;
  
- myPort = new Serial(this, "/dev/tty.usbmodem142301", 9600);
+ myPort = new Serial(this, "/dev/tty.usbmodem143301", 9600);
 }
 
 void draw() {
