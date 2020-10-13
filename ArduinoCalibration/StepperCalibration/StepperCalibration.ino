@@ -5,6 +5,9 @@
 #include <Stepper.h>
 #include <math.h>
 
+//Enter data into serial port as heading, altitude 
+// (enter positive values for counter-clockwise turning)
+
 const int STEPS = 2038;
 Stepper altimeter(STEPS, 8, 9, 10, 11);
 Stepper headingIndicator(STEPS, 3, 4, 5, 6); 
